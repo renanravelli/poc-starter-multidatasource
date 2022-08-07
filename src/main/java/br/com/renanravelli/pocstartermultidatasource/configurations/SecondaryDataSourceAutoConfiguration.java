@@ -31,7 +31,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 public class SecondaryDataSourceAutoConfiguration {
 
   @Bean
-  public DataSource secondaryDataSource(
+  public HikariDataSource secondaryDataSource(
       @Qualifier("secondaryDataSourceProperties") MultiDataSourceProperties properties) {
     return new HikariDataSource(properties);
   }
