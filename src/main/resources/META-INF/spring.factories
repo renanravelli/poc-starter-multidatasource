@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+br.com.renanravelli.pocstartermultidatasource.configurations.PrimaryDataSourceAutoConfiguration,\
+br.com.renanravelli.pocstartermultidatasource.configurations.SecondaryDataSourceAutoConfiguration,\
+br.com.renanravelli.pocstartermultidatasource.configurations.MultiDataSourcePropertiesConfig,\
+br.com.renanravelli.pocstartermultidatasource.configurations.MainAutoConfiguration
